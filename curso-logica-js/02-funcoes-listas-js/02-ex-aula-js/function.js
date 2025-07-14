@@ -1,3 +1,4 @@
+
 //1
 function consoleOla() {
     console.log("Olá mundo");
@@ -41,4 +42,3 @@ function multiPorEle(numeroParametro) {
     return numeroParametro * numeroParametro;
 }
 let resultadoMulti = multiPorEle(5);
-console.log(resultadoMulti);
