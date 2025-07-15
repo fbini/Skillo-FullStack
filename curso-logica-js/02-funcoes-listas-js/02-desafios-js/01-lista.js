@@ -11,7 +11,7 @@ listaLinguagens.push('Java');
 listaLinguagens.push('Ruby');
 listaLinguagens.push('GoLang');
 
-//4
+//4 == Meus doguinhos ==
 let nomes = ['Lindinha','Gordo','Leona'];
 console.log(nomes[0]);
 console.log(nomes[1]); //5
