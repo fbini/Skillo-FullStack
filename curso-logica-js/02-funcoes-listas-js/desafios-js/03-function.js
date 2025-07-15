@@ -13,11 +13,12 @@ function valorFatorial(numero) {
 
 //3 
 function converteDolar(dolar) {
-    let valorDolar = 5.59;
+    let valorDolar = 5.55;
     let valorReais = dolar * valorDolar;
-    return valorReais
+    return (valorReais);
 }
-
+let resultadoDolar = converteDolar(10);
+console.log(resultadoDolar);
 
 //4
 function perimetroArea(altura, largura) {
