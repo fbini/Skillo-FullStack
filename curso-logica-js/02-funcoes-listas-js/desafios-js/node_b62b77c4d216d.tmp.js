@@ -7,14 +7,16 @@ console.log(resultadoImc);
 
 //2 
 function valorFatorial(numero) {
-    let resultado = 1;
-    for(let i=2; i<= numero; i++){
-        resultado *= i;
-        console.log(resultado);
+    let nFat;
+    for(let i=numero; i<=numero; i--){
+         nFat = (nFat + (numero * i));
+        console.log(nFat + "\n");
     }
-    return resultado;
+    return nFat;
 } 
-valorFatorial(5);
+
+let resultadoFat = valorFatorial(10);
+console.log(resultadoFat);
 
 
 //3 
